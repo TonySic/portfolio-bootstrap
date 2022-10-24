@@ -15,27 +15,21 @@ header {
 
 /********** MENU **********/
 
-menu ul {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
+.collapse {
     text-align: center;
     font-weight: 300;
-    gap: 80px;
     font-size: 20px;
     text-transform: uppercase;
     background-color: #35b2c1;
-    height: 50px;
-    margin: 0;
 }
-
+.navbar{
+    padding: none;    
+}
 ul li {
     margin: auto 0;
 }
 
-ul li:hover{
+.nav-link:hover{
     transform: scale(1.1);
     transition: 0.8s;
     font-weight: bold;
@@ -166,10 +160,7 @@ h1 {
     font-size: 24px;
 }
 
-#lignecompetence {
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
+.col-lg-4 {
     text-align: center;
     justify-content: center;
 }
@@ -228,7 +219,7 @@ h1 {
     justify-content: center;
 }
 
-.content img:hover{
+.col-lg-4 img:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }

@@ -28,17 +28,23 @@
 
     <!--------------------MENU-------------------->
 
-    <section id="menu">
-        <menu>
-            <ul>
-                <li><a href="#presentation">Présentation</a></li>
-                <li><a href="#techno">Technologies</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </menu>
-    </section>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#presentation">Présentation</a>
+                    <a class="nav-link" href="#techno">Technologies</a>
+                    <a class="nav-link" href="#competences">Compétences</a>
+                    <a class="nav-link" href="#projets">Projets</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <!--------------------PRESENTATION-------------------->
 
@@ -101,18 +107,22 @@
         <!-- Compétences -->
         <section id="competences">
             <h1>Mes compétences</h1>
-            <div class="content">
-                <div>
-                    <img src="./images/illus-dev.png" alt="Développement Web">
-                    <p>Développement web</p>
-                </div>
-                <div>
-                    <img src="./images/illus-agile.png" alt="Méthode Agile">
-                    <p>Méthode Agile</p>
-                </div>
-                <div>
-                    <img src="./images/illus-teamwork.png" alt="Travail en équipe">
-                    <p>Travail en équipe</p>
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-lg-4">
+                        <img src="./images/illus-dev.png" alt="Développement Web">
+                        <p>Développement web</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./images/illus-agile.png" alt="Méthode Agile">
+                        <p>Méthode Agile</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./images/illus-teamwork.png" alt="Travail en équipe">
+                        <p>Travail en équipe</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -132,6 +142,14 @@
                 <div>
                     <a href="https://tonysic.github.io/Kome-waza/"><img src="./images/komewaza.png" alt="Kome Waza"></a>
                     <p>Kome Waza</p>
+                </div>
+                <div>
+                    <a href="https://tonysic.github.io/travelblog/"><img src="./images/travel-blog.png" alt="Travel Blog"></a>
+                    <p>Travel Blog</p>
+                </div>
+                <div>
+                    <a href="https://tonysic.github.io/site-the/"><img src="./images/the.png" alt="Site du Thé"></a>
+                    <p>Site du thé</p>
                 </div>
             </div>
         </section>
